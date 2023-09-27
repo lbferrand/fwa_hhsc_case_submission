@@ -23,6 +23,7 @@ header {
 }
 .box_1 {
   background-color: rgb(232, 232, 232);
+  border: 0.5px solid #8d8d8d;
   padding: 10px;
   margin: 0;
 }
@@ -35,6 +36,7 @@ header {
 
 .content_container {
   background-color: white;
+  border: 1px solid #8d8d8d;
   padding: 10px;
   margin: 0;
   border-bottom-right-radius: 5px;
