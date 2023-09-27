@@ -6,6 +6,7 @@ body {
 .container {
   border-radius: 10px;
   background-color: white;
+  box-shadow: 5px 5px 5px #8d8d8d;
 }
 
 .box {
@@ -53,7 +54,7 @@ header {
   display: relative;
   font-size: 12px;
   text-align: center;
-  padding: 10px;
+  padding: 5px;
 }
 
 .grid-container {
@@ -74,19 +75,17 @@ header {
   padding: 10px;
   font-size: 12px;
   grid-row-start: 1;
-  grid-row-end: 3;
+  grid-row-end: 2;
+  text-align: center;
 }
 
-tr,
-th {
-  font-size: 14px;
-  font-weight: bold;
-  text-align: left;
-  padding: 8px;
-}
-
-td {
+.grid-container-result {
+  display: grid;
+  column-gap: 2px;
+  background-color: white;
   font-size: 12px;
-  font-weight: bold;
-  text-align: left;
+  padding: 5px;
+  border-left: 1px solid #8d8d8d;
+  border-right: 1px solid #8d8d8d;
+  border-bottom: 1px solid #8d8d8d;
 }
