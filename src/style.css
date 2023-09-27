@@ -61,7 +61,7 @@ header {
 
 .grid-container {
   display: grid;
-  column-gap: 2px;
+  column-gap: 1px;
   background-color: rgb(17, 72, 128);
   color: white;
   font-weight: bold;
@@ -78,7 +78,7 @@ header {
   font-size: 12px;
   grid-row-start: 1;
   grid-row-end: 2;
-  text-align: center;
+  text-align: left;
 }
 
 .grid-container-result {
@@ -90,4 +90,5 @@ header {
   border-left: 1px solid #8d8d8d;
   border-right: 1px solid #8d8d8d;
   border-bottom: 1px solid #8d8d8d;
+  text-align: left;
 }
