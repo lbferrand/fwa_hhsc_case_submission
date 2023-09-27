@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <title>FWA_HHSC_Case_Submission</title>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <header>FWA HHSC Case Submission</header>
+      </div>
+      <div class="box_1">
+        <div class="subtitle">Upload, Validate and Transmit file</div>
+      </div>
+      <div class="content_container">
+        <form
+          id="thisForm"
+          name="thisForm"
+          action="/fwa_hhsc_search/list"
+          method="post"
+        >
+          <table>
+            <tbody>
+              <tr>
+                <td class="dataLabel">Year and month of submission:</td>
+                <td class="dataField">
+                  <input id="name" name="name" size="15" type="text" value />
+                </td>
+              </tr>
+
+              <tr>
+                <td class="dataLabel">Select and upload .csv file:</td>
+                <td class="buttonRow" aria-colspan="4">
+                  <input
+                    type="file"
+                    name="image"
+                    multiple="false"
+                    style="width: 10em"
+                    required="true"
+                    accept="application/pdf,application/postscript,image/png,image/jpeg,image/gif,text/plain,text/html,application/vnd.oasis.opendocument.text,application/vnd.oasis.opendocument.spreadsheet,text/rtf,application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                    onchange="this.form['Attach'].style.fontWeight='bold'"
+                  />
+                  No file selected for upload
+                </td>
+              </tr>
+
+              <tr>
+                <td class="dataLabel"></td>
+                <td class="buttonRow" aria-colspan="4">
+                  <input
+                    title="Process File"
+                    class="button"
+                    type="submit"
+                    name="Process File"
+                    value="Process File"
+                  />
+                </td>
+              </tr>
+
+              <tr>
+                <td class="dataLabel">Process Log:</td>
+                <td class="dataField">
+                  <textarea name="process_log" cols="80" rows="3"></textarea>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </form>
+
+        <div class="box_1">
+          <div class="subtitle">Process History</div>
+        </div>
+        <nav class="pagination">
+          <strong> Page 1 of 1</strong>
+        </nav>
+
+        <div class="grid-container">
+          <div class="grid-item"></div>
+          <div class="grid-item">ID:</div>
+          <div class="grid-item">Year and Month:</div>
+          <div class="grid-item">Created At:</div>
+          <div class="grid-item">Status:</div>
+          <div class="grid-item">System User:</div>
+        </div>
+        <table class="grid-item">
+          <tr>
+          <td>1</td>
+          <td>10</td>
+          <td>2021 October</td>
+          <td>2021-10-15 at 08:12PM</td>
+          <td>Completed</td>
+          <td>Luciana Ferrand</td>
+          </tr>
+        </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

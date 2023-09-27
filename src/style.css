@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(212, 212, 212);
+}
+
+.container {
+  border-radius: 10px;
+  background-color: white;
+}
+
+.box {
+  background-color: rgb(17, 72, 128);
+  padding: 10px;
+  margin: 0;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+header {
+  font-size: 16px;
+  color: white;
+  letter-spacing: 0.5px;
+}
+.box_1 {
+  background-color: rgb(232, 232, 232);
+  padding: 10px;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  font-weight: bold;
+}
+
+.content_container {
+  background-color: white;
+  padding: 10px;
+  margin: 0;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.dataLabel {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: left;
+  padding: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.pagination {
+  display: relative;
+  font-size: 12px;
+  text-align: center;
+  padding: 10px;
+}
+
+.grid-container {
+  display: grid;
+  column-gap: 2px;
+  background-color: rgb(17, 72, 128);
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 5px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.grid-item {
+  padding: 10px;
+  font-size: 12px;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+tr,
+th {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+  padding: 8px;
+}
+
+td {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: left;
+}
